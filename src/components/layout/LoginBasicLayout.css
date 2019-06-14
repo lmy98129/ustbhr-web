@@ -1,0 +1,27 @@
+.basicLayout {
+  height: 100%;
+  display: flex;
+}
+
+.basicLayout .mainRow {
+  height: 100%;
+}
+
+.basicLayout .mainCol {
+  margin-bottom: 130px;
+}
+
+@media(max-width: 767px) {
+  .basicLayout .mainCol{
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+}
+
+@media(max-height: 800px) {
+  .basicLayout {
+    height: auto;
+  }
+}

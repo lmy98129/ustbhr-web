@@ -1,0 +1,27 @@
+本项目为umi+dva+antd项目
+结构如下
+.
+├── dist                                // 目标代码文件，通过babel转译、webpack打包等步骤
+│                                       // 生成的目标代码可以直接在浏览器上运行
+├── mock                                // mock测试数据生成服务
+├── package.json                        // npm安装包管理文件
+├── src                                 // 源文件代码
+│   ├── app.js                          // dva状态管理入口文件
+│   ├── assets                          // 静态文件（图片等）
+│   ├── components                      // 可复用react组件
+│   ├── global.css                      // 全局CSS样式文件
+│   ├── layouts                         // 全局生效的布局样式文件
+│   ├── models                          // dva各个子状态管理器文件
+│   ├── pages
+│   │   ├── index.css                   // /index 页面的样式
+│   │   ├── index.js                    // /index 页面的入口文件
+│   │   ├── login
+│   │   │   ├── Login.css               // /login 页面的样式
+│   │   │   └── index.js                // /login 页面的入口文件
+│   │   └── ...                         // 其他各页面的页面文件，通过umi实现页面路由与文件层级绑定
+│   │
+│   ├── services                        // 前后端请求服务文件
+│   │   └── user.js
+│   └── utils                           // 工具文件
+│       └── request.js
+└── ...                                 // umi、webpack、eslint等服务的配置文件

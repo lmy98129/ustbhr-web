@@ -1,0 +1,17 @@
+.search {
+  width: 260px;
+}
+
+.dept-select {
+  width: 150px!important;
+}
+
+.role-select {
+  width: 120px!important;
+}
+
+@media(max-width: 768px) {
+  .search {
+    width: auto;
+  }
+}

@@ -1,0 +1,35 @@
+.register-widget-wrapper {
+  width: 600px;
+  margin: 60px auto;
+  padding: 30px 50px 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  vertical-align: middle;
+}
+
+.register-title {
+  font-size: 27px;
+  margin: 50px auto 35px;
+  text-align: center;
+}
+
+.register-button {
+  width: 100%;
+}
+
+@media(max-width: 767px) {
+  .register-widget-wrapper {
+    width: auto;
+    box-shadow: none;
+    padding: 0;
+  } 
+
+  .register-title {
+    width: 80%;
+    margin: 30px auto 25px;
+    padding-left: 0;
+    font-size: 27px;
+  }
+
+}

@@ -1,0 +1,38 @@
+.logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 300px;
+  margin: 14px 20px;
+}
+
+.logo-wrapper .logo {
+  height: 45px;
+  width: 45px;
+  margin-left: -7px;
+}
+
+.logo-wrapper .logo-collapsed {
+  margin-left: 0;
+}
+
+.logo-wrapper .name-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-wrapper .name-wrapper-hidden {
+  display: none;
+}
+
+.logo-wrapper .name-wrapper .name {
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  max-width: 120px;
+}

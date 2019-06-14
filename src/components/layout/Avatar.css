@@ -1,0 +1,29 @@
+.avatar-wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 10px;
+  margin-top: -2px;
+  transition:background-color 0.2s;
+  -webkit-transition:background-color 0.2s; /* Safari and Chrome */
+}
+
+.avatar-wrapper:hover {
+  background: #eee;
+  transition:background-color 0.2s;
+  -webkit-transition:background-color 0.2s; /* Safari and Chrome */
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 17px;
+}
